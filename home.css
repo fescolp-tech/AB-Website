@@ -64,7 +64,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
@@ -238,4 +238,35 @@ body {
   vertical-align: middle;
   padding: 2px 2px;
   margin-left: 8px;
+}
+.sec-3 {
+  margin-top: 300px;
+  overflow: hidden;
+}
+.special {
+  padding: 20px 50px; 
+  font-weight: 800;
+  font-size: 50px;
+}
+.special-note {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.special-note p {
+  padding: 20px 50px;
+  font-weight: 500;
+}
+.bbn {
+  margin-right: 300px;
+  border: 2px solid #00a0fa;
+  color: #00a0fa;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+.pos-img {
+  padding-left: 48px;
+ 
 }
